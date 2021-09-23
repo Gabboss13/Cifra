@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleaheet" href="reset.css">
+    <link rel="stylesheet" href="romanaesthetics.css">
+    <link rel="shortcut icon" href="julius2.png">
+    <script defer src="cipherlogic.js"></script>
+
+    <title>Roma wans't build in a day</title>
+</head>
+<body>
+    <div class="todomundo">
+        <div class="titulo"> 
+           <img src="antique.png" alt="logotitulo">
+        </div>
+
+        <div class="formulario">
+            <div class="in">
+                <label for="mensagem">Digite a sua Mensagem:</label>
+                <textarea id="textin" cols="5" rows="6" ></textarea>
+            </div>
+    
+            <div id="metodo">
+                <label for="codes">Escolha o Código</label>
+                    <select name="codes" id="escolha" form="codeform" > 
+                        <option value="1">Cifra de César</option>
+                        <option value="2"> Base64</option>
+                    </select>
+            </div>
+            
+
+    
+            <div id="incremento">
+                <label for= "incremento" id="nomesoma" > Escolha um número! </label>
+                <input type="number" name="deslocamento" id="soma" min="1" max="100">
+            </div>    
+
+            <hr>
+
+            <div class="processo">
+                <label for="code">Codificar</label>
+                <input type="radio" name="selecao" value="true" id="one">
+                <label for="decode">Decodificar</label>
+                <input type="radio" name="selecao" value="true" id="another">  
+            </div> 
+
+            <button id="go">Ir</button>
+
+            <div class="out">
+                <label for="mensagem">Seu Código:</label>
+                <textarea id="textout" cols="5" rows="6" readonly ></textarea>
+            </div>
+        </div>
+
+            
+        
+     </div>
+</body>
+<footer>
+    <p> Todos os Direitos Reservados. Site para fins educacionais </p>
+</footer>
+</html>
+
+
+<!-- Criar um prompt que pegue a escolha-->
+<!-- Direcionar a escolha para a base ou cifra-->
+<!-- Inviabilizar uma terceira escolha pelo usuário-->
+<!--Abre um um novo formulário para escrever o texto a ser codificado-->
+<!-- Para um código ou para o outro-->
+<!-- é precio ter as duas opções de botões no formulário para codificar ou decodificar -->
+<!-- Criar a lógica para a base-->
+<!-- Criar a lógica para a base-->
+<!--Devolver a ação-->
+<!--é preciso criar uma area textual que devolva o texto codificado-->
+
